@@ -20,7 +20,7 @@ function App() {
       <UserProvider>
         <AnalyticsProvider>
           <Router>
-            <div className="min-h-screen bg-gray-50">
+            <div className="min-h-screen bg-black text-white">
               <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/auth" element={<Auth />} />
